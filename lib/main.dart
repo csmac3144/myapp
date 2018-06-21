@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         // counter didn't reset back to zero; the application is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(title: 'Updated Flutter (begin CD android)'),
+      home: new MyHomePage(title: 'Updated Flutter (Fastlane)'),
     );
   }
 }
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             new Text(
-              'CI and CD working for iOS:',
+              'CI and CD working for iOS/Android:',
             ),
             new Text(
               '$_counter',
