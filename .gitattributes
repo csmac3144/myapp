@@ -1,1 +1,4 @@
+fastlane_setup.sh filter=git-crypt diff=git-crypt
 android/google_api.json filter=git-crypt diff=git-crypt
+ios/signing/*.p12 filter=git-crypt diff=git-crypt
+ios/signing/*.mobileprovision filter=git-crypt diff=git-crypt
